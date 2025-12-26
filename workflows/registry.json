@@ -1,0 +1,165 @@
+{
+    "version": "1.0.0",
+    "workflows": {
+        "landing-page": {
+            "category": "creative",
+            "description": "Build stunning, modern landing pages with premium aesthetics and conversion-focused design",
+            "tags": [
+                "web",
+                "design",
+                "frontend",
+                "marketing"
+            ]
+        },
+        "email-template": {
+            "category": "creative",
+            "description": "Create responsive HTML email templates with MJML-like quality",
+            "tags": [
+                "email",
+                "design",
+                "marketing",
+                "html"
+            ]
+        },
+        "dashboard-ui": {
+            "category": "creative",
+            "description": "Design professional admin dashboard interfaces",
+            "tags": [
+                "web",
+                "ui",
+                "admin",
+                "design"
+            ]
+        },
+        "nextjs-app": {
+            "category": "development",
+            "description": "Create a new Next.js application with TypeScript, Tailwind CSS, and best practices",
+            "tags": [
+                "nextjs",
+                "react",
+                "typescript",
+                "tailwind"
+            ]
+        },
+        "react-component": {
+            "category": "development",
+            "description": "Build reusable React components with proper patterns",
+            "tags": [
+                "react",
+                "frontend",
+                "component",
+                "typescript"
+            ]
+        },
+        "api-endpoint": {
+            "category": "development",
+            "description": "Create Next.js API endpoints with Zod validation and error handling",
+            "tags": [
+                "nextjs",
+                "api",
+                "backend",
+                "zod"
+            ]
+        },
+        "code-review": {
+            "category": "development",
+            "description": "Perform thorough code review with focus on quality, security, and maintainability",
+            "tags": [
+                "review",
+                "quality",
+                "security",
+                "best-practices"
+            ]
+        },
+        "playwright-test": {
+            "category": "testing",
+            "description": "Write robust Playwright browser automation tests",
+            "tags": [
+                "testing",
+                "browser",
+                "automation",
+                "e2e"
+            ]
+        },
+        "unit-test": {
+            "category": "testing",
+            "description": "Generate unit tests with good coverage using Jest or Vitest",
+            "tags": [
+                "testing",
+                "jest",
+                "vitest",
+                "coverage"
+            ]
+        },
+        "vercel-deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to Vercel with optimal configuration",
+            "tags": [
+                "deployment",
+                "vercel",
+                "hosting",
+                "ci-cd"
+            ]
+        },
+        "railway-deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to Railway",
+            "tags": [
+                "deployment",
+                "railway",
+                "hosting"
+            ]
+        },
+        "readme-generator": {
+            "category": "documentation",
+            "description": "Generate comprehensive project README files with badges and structure",
+            "tags": [
+                "docs",
+                "readme",
+                "markdown",
+                "documentation"
+            ]
+        },
+        "workflow-creator": {
+            "category": "ai-tools",
+            "description": "Create a new workflow for the Antigravity workflows repository",
+            "tags": [
+                "meta",
+                "workflow",
+                "contribution"
+            ]
+        }
+    },
+    "categories": {
+        "development": {
+            "name": "Development",
+            "description": "Workflows for building applications",
+            "emoji": "🔧"
+        },
+        "testing": {
+            "name": "Testing",
+            "description": "Workflows for testing and quality assurance",
+            "emoji": "🧪"
+        },
+        "creative": {
+            "name": "Creative & Design",
+            "description": "Workflows for UI/UX and visual design",
+            "emoji": "🎨"
+        },
+        "deployment": {
+            "name": "Deployment",
+            "description": "Workflows for deploying applications",
+            "emoji": "🚀"
+        },
+        "documentation": {
+            "name": "Documentation",
+            "description": "Workflows for generating documentation",
+            "emoji": "📚"
+        },
+        "ai-tools": {
+            "name": "AI Tools",
+            "description": "Workflows for AI and meta tooling",
+            "emoji": "🤖"
+        }
+    }
+}

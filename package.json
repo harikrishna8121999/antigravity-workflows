@@ -1,0 +1,27 @@
+{
+  "name": "antigravity-workflows",
+  "version": "1.0.0",
+  "description": "Community workflows for Antigravity AI coding assistant",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "antigravity-workflows": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "antigravity",
+    "ai",
+    "workflows",
+    "coding-assistant",
+    "agent"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ora": "^8.0.1"
+  }
+}
