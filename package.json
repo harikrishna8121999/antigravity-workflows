@@ -1,7 +1,7 @@
 {
   "name": "antigravity-workflows",
-  "version": "1.0.0",
-  "description": "Community workflows for Antigravity AI coding assistant",
+  "version": "1.0.1",
+  "description": "Community-driven workflows and skills for Antigravity AI coding assistant. Similar to Claude Skills - reusable prompts for AI agents.",
   "main": "src/index.js",
   "type": "module",
   "bin": {
@@ -15,10 +15,33 @@
     "ai",
     "workflows",
     "coding-assistant",
-    "agent"
+    "agent",
+    "claude",
+    "skills",
+    "prompts",
+    "ai-prompts",
+    "llm",
+    "google",
+    "gemini",
+    "cursor",
+    "copilot",
+    "ai-coding",
+    "automation",
+    "developer-tools",
+    "cli",
+    "npx",
+    "vscode"
   ],
-  "author": "",
+  "author": "harikrishna8121999",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harikrishna8121999/antigravity-workflows.git"
+  },
+  "homepage": "https://github.com/harikrishna8121999/antigravity-workflows#readme",
+  "bugs": {
+    "url": "https://github.com/harikrishna8121999/antigravity-workflows/issues"
+  },
   "dependencies": {
     "chalk": "^5.3.0",
     "commander": "^11.1.0",
