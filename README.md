@@ -58,6 +58,7 @@ That's it! The agent will follow the workflow instructions.
 | `nextjs-app` | Create a new Next.js app with TypeScript, Tailwind, ESLint |
 | `react-component` | Build reusable React components with proper patterns |
 | `api-endpoint` | Create type-safe REST API endpoints with Zod validation |
+| `code-review` | Perform thorough code reviews with focus on quality and security |
 
 ### 🧪 Testing
 | Workflow | Description |
@@ -82,6 +83,11 @@ That's it! The agent will follow the workflow instructions.
 | Workflow | Description |
 |----------|-------------|
 | `readme-generator` | Generate comprehensive project README files |
+
+### 🤖 AI Tools
+| Workflow | Description |
+|----------|-------------|
+| `workflow-creator` | Create new workflows for the Antigravity workflows repository |
 
 ---
 
