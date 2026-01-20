@@ -1,272 +1,6 @@
 {
     "version": "1.1.1",
     "workflows": {
-        "new-project": {
-            "category": "development",
-            "description": "Scaffold any project with detected or chosen stack",
-            "tags": [
-                "scaffold",
-                "setup",
-                "project",
-                "framework"
-            ]
-        },
-        "new-component": {
-            "category": "development",
-            "description": "Create reusable UI components for any framework",
-            "tags": [
-                "component",
-                "ui",
-                "frontend",
-                "reusable"
-            ]
-        },
-        "new-api": {
-            "category": "development",
-            "description": "Create API endpoints for any backend framework",
-            "tags": [
-                "api",
-                "backend",
-                "rest",
-                "graphql"
-            ]
-        },
-        "refactor": {
-            "category": "development",
-            "description": "Improve code quality, extract functions, reduce duplication",
-            "tags": [
-                "refactor",
-                "quality",
-                "cleanup",
-                "improvement"
-            ]
-        },
-        "migrate": {
-            "category": "development",
-            "description": "Technology migrations (JS to TS, framework upgrades)",
-            "tags": [
-                "migration",
-                "typescript",
-                "upgrade",
-                "modernize"
-            ]
-        },
-        "cli-tool": {
-            "category": "development",
-            "description": "Build command-line applications with argument parsing",
-            "tags": [
-                "cli",
-                "terminal",
-                "command-line",
-                "tool"
-            ]
-        },
-        "git-commit": {
-            "category": "git",
-            "description": "Generate conventional commits from staged changes",
-            "tags": [
-                "git",
-                "commit",
-                "conventional",
-                "version-control"
-            ]
-        },
-        "git-pr": {
-            "category": "git",
-            "description": "Create comprehensive pull request descriptions",
-            "tags": [
-                "git",
-                "pr",
-                "pull-request",
-                "collaboration"
-            ]
-        },
-        "git-conflict": {
-            "category": "git",
-            "description": "Help resolve merge conflicts with context-aware suggestions",
-            "tags": [
-                "git",
-                "merge",
-                "conflict",
-                "resolution"
-            ]
-        },
-        "unit-test": {
-            "category": "testing",
-            "description": "Generate unit tests with detected testing framework",
-            "tags": [
-                "testing",
-                "unit",
-                "jest",
-                "vitest",
-                "pytest"
-            ]
-        },
-        "e2e-test": {
-            "category": "testing",
-            "description": "Write end-to-end browser automation tests",
-            "tags": [
-                "testing",
-                "e2e",
-                "browser",
-                "playwright",
-                "cypress"
-            ]
-        },
-        "code-review": {
-            "category": "testing",
-            "description": "Comprehensive code review for quality and security",
-            "tags": [
-                "review",
-                "quality",
-                "security",
-                "best-practices"
-            ]
-        },
-        "debug-error": {
-            "category": "debugging",
-            "description": "Analyze error messages and stack traces, suggest fixes",
-            "tags": [
-                "debug",
-                "error",
-                "fix",
-                "troubleshoot"
-            ]
-        },
-        "debug-log": {
-            "category": "debugging",
-            "description": "Add strategic logging and debugging statements",
-            "tags": [
-                "debug",
-                "logging",
-                "trace",
-                "diagnostics"
-            ]
-        },
-        "performance": {
-            "category": "debugging",
-            "description": "Profile and optimize slow code paths",
-            "tags": [
-                "performance",
-                "optimization",
-                "profiling",
-                "speed"
-            ]
-        },
-        "security-audit": {
-            "category": "security",
-            "description": "Scan code for vulnerabilities, secrets, and security issues",
-            "tags": [
-                "security",
-                "audit",
-                "vulnerabilities",
-                "secrets"
-            ]
-        },
-        "dependency-check": {
-            "category": "security",
-            "description": "Check for vulnerable dependencies and suggest upgrades",
-            "tags": [
-                "security",
-                "dependencies",
-                "npm",
-                "vulnerabilities"
-            ]
-        },
-        "readme": {
-            "category": "documentation",
-            "description": "Generate comprehensive project README files",
-            "tags": [
-                "docs",
-                "readme",
-                "markdown",
-                "documentation"
-            ]
-        },
-        "api-docs": {
-            "category": "documentation",
-            "description": "Generate API documentation (OpenAPI, JSDoc, etc.)",
-            "tags": [
-                "docs",
-                "api",
-                "openapi",
-                "swagger",
-                "jsdoc"
-            ]
-        },
-        "architecture": {
-            "category": "documentation",
-            "description": "Create architecture diagrams with Mermaid or C4 model",
-            "tags": [
-                "docs",
-                "architecture",
-                "diagram",
-                "mermaid",
-                "c4"
-            ]
-        },
-        "deploy": {
-            "category": "deployment",
-            "description": "Deploy applications to any platform",
-            "tags": [
-                "deploy",
-                "hosting",
-                "cloud",
-                "production"
-            ]
-        },
-        "docker": {
-            "category": "deployment",
-            "description": "Containerize applications with Docker",
-            "tags": [
-                "docker",
-                "container",
-                "devops",
-                "infrastructure"
-            ]
-        },
-        "ci-cd": {
-            "category": "deployment",
-            "description": "Set up CI/CD pipelines for any platform",
-            "tags": [
-                "ci",
-                "cd",
-                "github-actions",
-                "automation",
-                "pipeline"
-            ]
-        },
-        "db-schema": {
-            "category": "database",
-            "description": "Design database schemas for any ORM or database",
-            "tags": [
-                "database",
-                "schema",
-                "prisma",
-                "sql",
-                "orm"
-            ]
-        },
-        "db-migrate": {
-            "category": "database",
-            "description": "Create and run database migrations",
-            "tags": [
-                "database",
-                "migration",
-                "schema",
-                "versioning"
-            ]
-        },
-        "db-seed": {
-            "category": "database",
-            "description": "Generate seed and test data for databases",
-            "tags": [
-                "database",
-                "seed",
-                "test-data",
-                "fixtures"
-            ]
-        },
         "prompt-engineering": {
             "category": "ai-tools",
             "description": "Design and optimize prompts for LLM applications",
@@ -299,17 +33,6 @@
                 "template"
             ]
         },
-        "landing-page": {
-            "category": "creative",
-            "description": "Build stunning landing pages for any stack",
-            "tags": [
-                "web",
-                "design",
-                "frontend",
-                "marketing",
-                "ui"
-            ]
-        },
         "dashboard-ui": {
             "category": "creative",
             "description": "Create professional admin dashboard interfaces",
@@ -331,49 +54,336 @@
                 "html",
                 "mjml"
             ]
+        },
+        "landing-page": {
+            "category": "creative",
+            "description": "Build stunning landing pages for any stack",
+            "tags": [
+                "web",
+                "design",
+                "frontend",
+                "marketing",
+                "ui"
+            ]
+        },
+        "db-migrate": {
+            "category": "database",
+            "description": "Create and run database migrations safely",
+            "tags": [
+                "database",
+                "migration",
+                "schema",
+                "versioning"
+            ]
+        },
+        "db-schema": {
+            "category": "database",
+            "description": "Design database schemas for any ORM or database",
+            "tags": [
+                "database",
+                "schema",
+                "prisma",
+                "sql",
+                "orm"
+            ]
+        },
+        "db-seed": {
+            "category": "database",
+            "description": "Generate seed and test data for databases",
+            "tags": [
+                "database",
+                "seed",
+                "test-data",
+                "fixtures"
+            ]
+        },
+        "debug-error": {
+            "category": "debugging",
+            "description": "Analyze error messages and stack traces, suggest fixes",
+            "tags": [
+                "debug",
+                "error",
+                "fix",
+                "troubleshoot"
+            ]
+        },
+        "debug-log": {
+            "category": "debugging",
+            "description": "Add strategic logging and debugging statements",
+            "tags": [
+                "debug",
+                "logging",
+                "trace",
+                "diagnostics"
+            ]
+        },
+        "performance": {
+            "category": "debugging",
+            "description": "Profile and optimize slow code paths",
+            "tags": [
+                "performance",
+                "optimization",
+                "profiling",
+                "speed"
+            ]
+        },
+        "ci-cd": {
+            "category": "deployment",
+            "description": "Set up CI/CD pipelines for any platform",
+            "tags": [
+                "ci",
+                "cd",
+                "github-actions",
+                "automation",
+                "pipeline"
+            ]
+        },
+        "deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to any platform",
+            "tags": [
+                "deploy",
+                "hosting",
+                "cloud",
+                "production"
+            ]
+        },
+        "docker": {
+            "category": "deployment",
+            "description": "Containerize application with Docker",
+            "tags": [
+                "docker",
+                "container",
+                "devops",
+                "infrastructure"
+            ]
+        },
+        "railway-deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to Railway",
+            "tags": [
+                "deploy",
+                "railway",
+                "hosting",
+                "cloud"
+            ]
+        },
+        "vercel-deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to Vercel",
+            "tags": [
+                "deploy",
+                "vercel",
+                "hosting",
+                "cloud"
+            ]
+        },
+        "api-endpoint": {
+            "category": "development",
+            "description": "Create API endpoints for any backend framework",
+            "tags": [
+                "api",
+                "backend",
+                "rest",
+                "graphql"
+            ]
+        },
+        "cli-tool": {
+            "category": "development",
+            "description": "Build command-line applications with argument parsing",
+            "tags": [
+                "cli",
+                "terminal",
+                "command-line",
+                "tool"
+            ]
+        },
+        "migrate": {
+            "category": "development",
+            "description": "Technology migrations (JS to TS, framework upgrades)",
+            "tags": [
+                "migration",
+                "typescript",
+                "upgrade",
+                "modernize"
+            ]
+        },
+        "new-project": {
+            "category": "development",
+            "description": "Scaffold any project with detected or chosen stack",
+            "tags": [
+                "scaffold",
+                "setup",
+                "project",
+                "framework"
+            ]
+        },
+        "nextjs-app": {
+            "category": "development",
+            "description": "Create new Next.js applications with best practices",
+            "tags": [
+                "nextjs",
+                "react",
+                "typescript",
+                "setup"
+            ]
+        },
+        "react-component": {
+            "category": "development",
+            "description": "Create reusable React components with patterns",
+            "tags": [
+                "react",
+                "component",
+                "ui",
+                "frontend"
+            ]
+        },
+        "refactor": {
+            "category": "development",
+            "description": "Improve code quality, extract functions, reduce duplication",
+            "tags": [
+                "refactor",
+                "quality",
+                "cleanup",
+                "improvement"
+            ]
+        },
+        "api-docs": {
+            "category": "documentation",
+            "description": "Generate API documentation (OpenAPI, JSDoc, etc.)",
+            "tags": [
+                "docs",
+                "api",
+                "openapi",
+                "swagger",
+                "jsdoc"
+            ]
+        },
+        "architecture": {
+            "category": "documentation",
+            "description": "Create architecture diagrams with Mermaid or C4",
+            "tags": [
+                "docs",
+                "architecture",
+                "diagram",
+                "mermaid",
+                "c4"
+            ]
+        },
+        "readme": {
+            "category": "documentation",
+            "description": "Generate comprehensive README files for projects",
+            "tags": [
+                "docs",
+                "readme",
+                "markdown",
+                "documentation"
+            ]
+        },
+        "readme-generator": {
+            "category": "documentation",
+            "description": "Generate comprehensive project README files",
+            "tags": [
+                "docs",
+                "readme",
+                "markdown",
+                "documentation"
+            ]
+        },
+        "git-commit": {
+            "category": "git",
+            "description": "Generate conventional commits from staged changes",
+            "tags": [
+                "git",
+                "commit",
+                "conventional",
+                "version-control"
+            ]
+        },
+        "git-conflict": {
+            "category": "git",
+            "description": "Help resolve merge conflicts with context-aware suggestions",
+            "tags": [
+                "git",
+                "merge",
+                "conflict",
+                "resolution"
+            ]
+        },
+        "git-pr": {
+            "category": "git",
+            "description": "Create comprehensive pull request descriptions",
+            "tags": [
+                "git",
+                "pr",
+                "pull-request",
+                "collaboration"
+            ]
+        },
+        "dependency-check": {
+            "category": "security",
+            "description": "Check for vulnerable dependencies and suggest upgrades",
+            "tags": [
+                "security",
+                "dependencies",
+                "npm",
+                "vulnerabilities"
+            ]
+        },
+        "security-audit": {
+            "category": "security",
+            "description": "Scan code for vulnerabilities, secrets, and security issues",
+            "tags": [
+                "security",
+                "audit",
+                "vulnerabilities",
+                "secrets"
+            ]
+        },
+        "code-review": {
+            "category": "testing",
+            "description": "Comprehensive code review for quality and security",
+            "tags": [
+                "review",
+                "quality",
+                "security",
+                "best-practices"
+            ]
+        },
+        "e2e-test": {
+            "category": "testing",
+            "description": "End-to-end browser tests with detected framework",
+            "tags": [
+                "testing",
+                "e2e",
+                "browser",
+                "playwright",
+                "cypress"
+            ]
+        },
+        "playwright-test": {
+            "category": "testing",
+            "description": "Write end-to-end browser automation tests with Playwright",
+            "tags": [
+                "testing",
+                "e2e",
+                "browser",
+                "playwright"
+            ]
+        },
+        "unit-test": {
+            "category": "testing",
+            "description": "Generate unit tests with detected testing framework",
+            "tags": [
+                "testing",
+                "unit",
+                "jest",
+                "vitest",
+                "pytest"
+            ]
         }
     },
     "categories": {
-        "development": {
-            "name": "Development",
-            "description": "Create applications, components, APIs, and features",
-            "emoji": "🔧"
-        },
-        "git": {
-            "name": "Git & Collaboration",
-            "description": "Version control workflows for commits, PRs, and merges",
-            "emoji": "🔀"
-        },
-        "testing": {
-            "name": "Testing & Quality",
-            "description": "Unit tests, E2E tests, and code review",
-            "emoji": "🧪"
-        },
-        "debugging": {
-            "name": "Debugging & Performance",
-            "description": "Error analysis, logging, and optimization",
-            "emoji": "🐛"
-        },
-        "security": {
-            "name": "Security",
-            "description": "Vulnerability scanning and dependency checks",
-            "emoji": "🔒"
-        },
-        "documentation": {
-            "name": "Documentation",
-            "description": "READMEs, API docs, and architecture diagrams",
-            "emoji": "📚"
-        },
-        "deployment": {
-            "name": "Deployment & Infrastructure",
-            "description": "Deploy, containerize, and set up CI/CD",
-            "emoji": "🚀"
-        },
-        "database": {
-            "name": "Database",
-            "description": "Schema design, migrations, and seeding",
-            "emoji": "🗄️"
-        },
         "ai-tools": {
             "name": "AI & LLM",
             "description": "Prompt engineering, RAG, and AI agents",
@@ -383,6 +393,46 @@
             "name": "Creative & UI",
             "description": "Landing pages, dashboards, and email templates",
             "emoji": "🎨"
+        },
+        "database": {
+            "name": "Database",
+            "description": "Schema design, migrations, and seeding",
+            "emoji": "🗄️"
+        },
+        "debugging": {
+            "name": "Debugging & Performance",
+            "description": "Error analysis, logging, and optimization",
+            "emoji": "🐛"
+        },
+        "deployment": {
+            "name": "Deployment & Infrastructure",
+            "description": "Deploy, containerize, and set up CI/CD",
+            "emoji": "🚀"
+        },
+        "development": {
+            "name": "Development",
+            "description": "Create applications, components, APIs, and features",
+            "emoji": "🔧"
+        },
+        "documentation": {
+            "name": "Documentation",
+            "description": "READMEs, API docs, and architecture diagrams",
+            "emoji": "📚"
+        },
+        "git": {
+            "name": "Git & Collaboration",
+            "description": "Version control workflows for commits, PRs, and merges",
+            "emoji": "🔀"
+        },
+        "security": {
+            "name": "Security",
+            "description": "Vulnerability scanning and dependency checks",
+            "emoji": "🔒"
+        },
+        "testing": {
+            "name": "Testing & Quality",
+            "description": "Unit tests, E2E tests, and code review",
+            "emoji": "🧪"
         }
     }
 }
