@@ -1,69 +1,121 @@
 {
-    "version": "1.0.0",
+    "version": "2.0.0",
     "workflows": {
-        "landing-page": {
-            "category": "creative",
-            "description": "Build stunning, modern landing pages with premium aesthetics and conversion-focused design",
-            "tags": [
-                "web",
-                "design",
-                "frontend",
-                "marketing"
-            ]
-        },
-        "email-template": {
-            "category": "creative",
-            "description": "Create responsive HTML email templates with MJML-like quality",
-            "tags": [
-                "email",
-                "design",
-                "marketing",
-                "html"
-            ]
-        },
-        "dashboard-ui": {
-            "category": "creative",
-            "description": "Design professional admin dashboard interfaces",
-            "tags": [
-                "web",
-                "ui",
-                "admin",
-                "design"
-            ]
-        },
-        "nextjs-app": {
+        "new-project": {
             "category": "development",
-            "description": "Create a new Next.js application with TypeScript, Tailwind CSS, and best practices",
+            "description": "Scaffold any project with detected or chosen stack",
             "tags": [
-                "nextjs",
-                "react",
-                "typescript",
-                "tailwind"
+                "scaffold",
+                "setup",
+                "project",
+                "framework"
             ]
         },
-        "react-component": {
+        "new-component": {
             "category": "development",
-            "description": "Build reusable React components with proper patterns",
+            "description": "Create reusable UI components for any framework",
             "tags": [
-                "react",
-                "frontend",
                 "component",
-                "typescript"
+                "ui",
+                "frontend",
+                "reusable"
             ]
         },
-        "api-endpoint": {
+        "new-api": {
             "category": "development",
-            "description": "Create Next.js API endpoints with Zod validation and error handling",
+            "description": "Create API endpoints for any backend framework",
             "tags": [
-                "nextjs",
                 "api",
                 "backend",
-                "zod"
+                "rest",
+                "graphql"
+            ]
+        },
+        "refactor": {
+            "category": "development",
+            "description": "Improve code quality, extract functions, reduce duplication",
+            "tags": [
+                "refactor",
+                "quality",
+                "cleanup",
+                "improvement"
+            ]
+        },
+        "migrate": {
+            "category": "development",
+            "description": "Technology migrations (JS to TS, framework upgrades)",
+            "tags": [
+                "migration",
+                "typescript",
+                "upgrade",
+                "modernize"
+            ]
+        },
+        "cli-tool": {
+            "category": "development",
+            "description": "Build command-line applications with argument parsing",
+            "tags": [
+                "cli",
+                "terminal",
+                "command-line",
+                "tool"
+            ]
+        },
+        "git-commit": {
+            "category": "git",
+            "description": "Generate conventional commits from staged changes",
+            "tags": [
+                "git",
+                "commit",
+                "conventional",
+                "version-control"
+            ]
+        },
+        "git-pr": {
+            "category": "git",
+            "description": "Create comprehensive pull request descriptions",
+            "tags": [
+                "git",
+                "pr",
+                "pull-request",
+                "collaboration"
+            ]
+        },
+        "git-conflict": {
+            "category": "git",
+            "description": "Help resolve merge conflicts with context-aware suggestions",
+            "tags": [
+                "git",
+                "merge",
+                "conflict",
+                "resolution"
+            ]
+        },
+        "unit-test": {
+            "category": "testing",
+            "description": "Generate unit tests with detected testing framework",
+            "tags": [
+                "testing",
+                "unit",
+                "jest",
+                "vitest",
+                "pytest"
+            ]
+        },
+        "e2e-test": {
+            "category": "testing",
+            "description": "Write end-to-end browser automation tests",
+            "tags": [
+                "testing",
+                "e2e",
+                "browser",
+                "playwright",
+                "cypress"
             ]
         },
         "code-review": {
-            "category": "development",
-            "description": "Perform thorough code review with focus on quality, security, and maintainability",
+            "category": "testing",
+            "description": "Comprehensive code review for quality and security",
             "tags": [
                 "review",
                 "quality",
@@ -71,48 +123,59 @@
                 "best-practices"
             ]
         },
-        "playwright-test": {
-            "category": "testing",
-            "description": "Write robust Playwright browser automation tests",
+        "debug-error": {
+            "category": "debugging",
+            "description": "Analyze error messages and stack traces, suggest fixes",
             "tags": [
-                "testing",
-                "browser",
-                "automation",
-                "e2e"
+                "debug",
+                "error",
+                "fix",
+                "troubleshoot"
             ]
         },
-        "unit-test": {
-            "category": "testing",
-            "description": "Generate unit tests with good coverage using Jest or Vitest",
+        "debug-log": {
+            "category": "debugging",
+            "description": "Add strategic logging and debugging statements",
             "tags": [
-                "testing",
-                "jest",
-                "vitest",
-                "coverage"
+                "debug",
+                "logging",
+                "trace",
+                "diagnostics"
             ]
         },
-        "vercel-deploy": {
-            "category": "deployment",
-            "description": "Deploy applications to Vercel with optimal configuration",
+        "performance": {
+            "category": "debugging",
+            "description": "Profile and optimize slow code paths",
             "tags": [
-                "deployment",
-                "vercel",
-                "hosting",
-                "ci-cd"
+                "performance",
+                "optimization",
+                "profiling",
+                "speed"
             ]
         },
-        "railway-deploy": {
-            "category": "deployment",
-            "description": "Deploy applications to Railway",
+        "security-audit": {
+            "category": "security",
+            "description": "Scan code for vulnerabilities, secrets, and security issues",
             "tags": [
-                "deployment",
-                "railway",
-                "hosting"
+                "security",
+                "audit",
+                "vulnerabilities",
+                "secrets"
             ]
         },
-        "readme-generator": {
+        "dependency-check": {
+            "category": "security",
+            "description": "Check for vulnerable dependencies and suggest upgrades",
+            "tags": [
+                "security",
+                "dependencies",
+                "npm",
+                "vulnerabilities"
+            ]
+        },
+        "readme": {
             "category": "documentation",
-            "description": "Generate comprehensive project README files with badges and structure",
+            "description": "Generate comprehensive project README files",
             "tags": [
                 "docs",
                 "readme",
@@ -120,46 +183,206 @@
                 "documentation"
             ]
         },
+        "api-docs": {
+            "category": "documentation",
+            "description": "Generate API documentation (OpenAPI, JSDoc, etc.)",
+            "tags": [
+                "docs",
+                "api",
+                "openapi",
+                "swagger",
+                "jsdoc"
+            ]
+        },
+        "architecture": {
+            "category": "documentation",
+            "description": "Create architecture diagrams with Mermaid or C4 model",
+            "tags": [
+                "docs",
+                "architecture",
+                "diagram",
+                "mermaid",
+                "c4"
+            ]
+        },
+        "deploy": {
+            "category": "deployment",
+            "description": "Deploy applications to any platform",
+            "tags": [
+                "deploy",
+                "hosting",
+                "cloud",
+                "production"
+            ]
+        },
+        "docker": {
+            "category": "deployment",
+            "description": "Containerize applications with Docker",
+            "tags": [
+                "docker",
+                "container",
+                "devops",
+                "infrastructure"
+            ]
+        },
+        "ci-cd": {
+            "category": "deployment",
+            "description": "Set up CI/CD pipelines for any platform",
+            "tags": [
+                "ci",
+                "cd",
+                "github-actions",
+                "automation",
+                "pipeline"
+            ]
+        },
+        "db-schema": {
+            "category": "database",
+            "description": "Design database schemas for any ORM or database",
+            "tags": [
+                "database",
+                "schema",
+                "prisma",
+                "sql",
+                "orm"
+            ]
+        },
+        "db-migrate": {
+            "category": "database",
+            "description": "Create and run database migrations",
+            "tags": [
+                "database",
+                "migration",
+                "schema",
+                "versioning"
+            ]
+        },
+        "db-seed": {
+            "category": "database",
+            "description": "Generate seed and test data for databases",
+            "tags": [
+                "database",
+                "seed",
+                "test-data",
+                "fixtures"
+            ]
+        },
+        "prompt-engineering": {
+            "category": "ai-tools",
+            "description": "Design and optimize prompts for LLM applications",
+            "tags": [
+                "ai",
+                "llm",
+                "prompt",
+                "chatgpt",
+                "claude"
+            ]
+        },
+        "rag-pipeline": {
+            "category": "ai-tools",
+            "description": "Build retrieval-augmented generation pipelines",
+            "tags": [
+                "ai",
+                "rag",
+                "embeddings",
+                "vector",
+                "search"
+            ]
+        },
         "workflow-creator": {
             "category": "ai-tools",
-            "description": "Create a new workflow for the Antigravity workflows repository",
+            "description": "Create new workflows for the Antigravity repository",
             "tags": [
                 "meta",
                 "workflow",
-                "contribution"
+                "contribution",
+                "template"
+            ]
+        },
+        "landing-page": {
+            "category": "creative",
+            "description": "Build stunning landing pages for any stack",
+            "tags": [
+                "web",
+                "design",
+                "frontend",
+                "marketing",
+                "ui"
+            ]
+        },
+        "dashboard-ui": {
+            "category": "creative",
+            "description": "Create professional admin dashboard interfaces",
+            "tags": [
+                "web",
+                "ui",
+                "admin",
+                "design",
+                "dashboard"
+            ]
+        },
+        "email-template": {
+            "category": "creative",
+            "description": "Create responsive HTML email templates",
+            "tags": [
+                "email",
+                "design",
+                "marketing",
+                "html",
+                "mjml"
             ]
         }
     },
     "categories": {
         "development": {
             "name": "Development",
-            "description": "Workflows for building applications",
+            "description": "Create applications, components, APIs, and features",
             "emoji": "🔧"
         },
+        "git": {
+            "name": "Git & Collaboration",
+            "description": "Version control workflows for commits, PRs, and merges",
+            "emoji": "🔀"
+        },
         "testing": {
-            "name": "Testing",
-            "description": "Workflows for testing and quality assurance",
+            "name": "Testing & Quality",
+            "description": "Unit tests, E2E tests, and code review",
             "emoji": "🧪"
         },
-        "creative": {
-            "name": "Creative & Design",
-            "description": "Workflows for UI/UX and visual design",
-            "emoji": "🎨"
+        "debugging": {
+            "name": "Debugging & Performance",
+            "description": "Error analysis, logging, and optimization",
+            "emoji": "🐛"
         },
-        "deployment": {
-            "name": "Deployment",
-            "description": "Workflows for deploying applications",
-            "emoji": "🚀"
+        "security": {
+            "name": "Security",
+            "description": "Vulnerability scanning and dependency checks",
+            "emoji": "🔒"
         },
         "documentation": {
             "name": "Documentation",
-            "description": "Workflows for generating documentation",
+            "description": "READMEs, API docs, and architecture diagrams",
             "emoji": "📚"
         },
+        "deployment": {
+            "name": "Deployment & Infrastructure",
+            "description": "Deploy, containerize, and set up CI/CD",
+            "emoji": "🚀"
+        },
+        "database": {
+            "name": "Database",
+            "description": "Schema design, migrations, and seeding",
+            "emoji": "🗄️"
+        },
         "ai-tools": {
-            "name": "AI Tools",
-            "description": "Workflows for AI and meta tooling",
+            "name": "AI & LLM",
+            "description": "Prompt engineering, RAG, and AI agents",
             "emoji": "🤖"
+        },
+        "creative": {
+            "name": "Creative & UI",
+            "description": "Landing pages, dashboards, and email templates",
+            "emoji": "🎨"
         }
     }
 }
