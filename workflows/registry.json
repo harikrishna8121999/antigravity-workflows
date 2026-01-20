@@ -1,6 +1,17 @@
 {
     "version": "1.1.1",
     "workflows": {
+        "ai-agent": {
+            "category": "ai-tools",
+            "description": "Create AI agents with tools and capabilities",
+            "tags": [
+                "ai",
+                "agent",
+                "llm",
+                "tools",
+                "automation"
+            ]
+        },
         "prompt-engineering": {
             "category": "ai-tools",
             "description": "Design and optimize prompts for LLM applications",
@@ -42,6 +53,17 @@
                 "admin",
                 "design",
                 "dashboard"
+            ]
+        },
+        "design-system": {
+            "category": "creative",
+            "description": "Create and analyze design system tokens",
+            "tags": [
+                "design",
+                "tokens",
+                "ui",
+                "components",
+                "styles"
             ]
         },
         "email-template": {
@@ -158,6 +180,16 @@
                 "infrastructure"
             ]
         },
+        "env-config": {
+            "category": "deployment",
+            "description": "Manage environment variables securely",
+            "tags": [
+                "env",
+                "config",
+                "secrets",
+                "environment"
+            ]
+        },
         "railway-deploy": {
             "category": "deployment",
             "description": "Deploy applications to Railway",
@@ -198,6 +230,17 @@
                 "tool"
             ]
         },
+        "library": {
+            "category": "development",
+            "description": "Create publishable packages and libraries",
+            "tags": [
+                "library",
+                "package",
+                "npm",
+                "pypi",
+                "publish"
+            ]
+        },
         "migrate": {
             "category": "development",
             "description": "Technology migrations (JS to TS, framework upgrades)",
@@ -206,6 +249,15 @@
                 "typescript",
                 "upgrade",
                 "modernize"
+            ]
+        },
+        "new-feature": {
+            "category": "development",
+            "description": "Full feature implementation from design to deployment",
+            "tags": [
+                "feature",
+                "fullstack",
+                "implementation"
             ]
         },
         "new-project": {
@@ -320,6 +372,26 @@
                 "collaboration"
             ]
         },
+        "git-rebase": {
+            "category": "git",
+            "description": "Interactive rebase assistance for cleaning git history",
+            "tags": [
+                "git",
+                "rebase",
+                "history",
+                "cleanup"
+            ]
+        },
+        "auth-implementation": {
+            "category": "security",
+            "description": "Implement authentication patterns for any stack",
+            "tags": [
+                "auth",
+                "authentication",
+                "security",
+                "login"
+            ]
+        },
         "dependency-check": {
             "category": "security",
             "description": "Check for vulnerable dependencies and suggest upgrades",
@@ -369,6 +441,16 @@
                 "e2e",
                 "browser",
                 "playwright"
+            ]
+        },
+        "test-coverage": {
+            "category": "testing",
+            "description": "Improve test coverage for specific files or functions",
+            "tags": [
+                "testing",
+                "coverage",
+                "quality",
+                "metrics"
             ]
         },
         "unit-test": {
