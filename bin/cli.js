@@ -16,7 +16,7 @@ program
     .version(packageJson.version);
 
 program
-    .command('install <workflows...>')
+    .command('install [workflows...]')
     .description('Install one or more workflows')
     .option('-c, --category <category>', 'Install all workflows from a category')
     .option('-a, --all', 'Install all workflows')
