@@ -13,7 +13,7 @@ import { existsSync } from 'fs';
 const GITHUB_RAW_URL = 'https://raw.githubusercontent.com/harikrishna8121999/antigravity-workflows/main';
 const REGISTRY_URL = `${GITHUB_RAW_URL}/workflows/registry.json`;
 
-export async function installWorkflow(workflows, options) {
+export async function installWorkflow(workflows = [], options) {
     const spinner = ora('Fetching workflow registry...').start();
 
     try {
@@ -72,7 +72,7 @@ export async function installWorkflow(workflows, options) {
         workflows = [...new Set(workflows)];
 
         if (workflows.length === 0) {
-            spinner.warn('No workflows specified.');
+            spinner.warn('No workflows specified. Use --all or --category <name> to install workflows.');
             return;
         }
 
