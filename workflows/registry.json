@@ -1,5 +1,5 @@
 {
-    "version": "1.1.1",
+    "version": "1.1.2",
     "workflows": {
         "ai-agent": {
             "category": "ai-tools",
@@ -210,16 +210,6 @@
                 "cloud"
             ]
         },
-        "api-endpoint": {
-            "category": "development",
-            "description": "Create API endpoints for any backend framework",
-            "tags": [
-                "api",
-                "backend",
-                "rest",
-                "graphql"
-            ]
-        },
         "cli-tool": {
             "category": "development",
             "description": "Build command-line applications with argument parsing",
@@ -251,6 +241,27 @@
                 "modernize"
             ]
         },
+        "new-api": {
+            "category": "development",
+            "description": "Create API endpoints for any backend framework",
+            "tags": [
+                "api",
+                "backend",
+                "rest",
+                "graphql"
+            ]
+        },
+        "new-component": {
+            "category": "development",
+            "description": "Create reusable UI components for any framework",
+            "tags": [
+                "ui",
+                "component",
+                "frontend",
+                "react",
+                "vue"
+            ]
+        },
         "new-feature": {
             "category": "development",
             "description": "Full feature implementation from design to deployment",
@@ -278,16 +289,6 @@
                 "react",
                 "typescript",
                 "setup"
-            ]
-        },
-        "react-component": {
-            "category": "development",
-            "description": "Create reusable React components with patterns",
-            "tags": [
-                "react",
-                "component",
-                "ui",
-                "frontend"
             ]
         },
         "refactor": {
@@ -325,16 +326,6 @@
         "readme": {
             "category": "documentation",
             "description": "Generate comprehensive README files for projects",
-            "tags": [
-                "docs",
-                "readme",
-                "markdown",
-                "documentation"
-            ]
-        },
-        "readme-generator": {
-            "category": "documentation",
-            "description": "Generate comprehensive project README files",
             "tags": [
                 "docs",
                 "readme",
