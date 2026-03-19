@@ -403,6 +403,17 @@
                 "secrets"
             ]
         },
+        "accessibility-audit": {
+            "category": "testing",
+            "description": "Perform a comprehensive accessibility (a11y) audit for any stack",
+            "tags": [
+                "a11y",
+                "accessibility",
+                "wcag",
+                "semantic-html",
+                "audit"
+            ]
+        },
         "code-review": {
             "category": "testing",
             "description": "Comprehensive code review for quality and security",
